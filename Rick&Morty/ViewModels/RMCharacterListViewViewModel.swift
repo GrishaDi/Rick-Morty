@@ -96,6 +96,7 @@ final class RMCharacterListViewViweModel: NSObject {
                 
                 DispatchQueue.main.async {
                     strongSelf.delegate?.didLoadMoreCharacters(with: indexPathsToAdd)
+                    strongSelf.isLoadingMoreCharacters = false
                 }
                 
             case .failure(let failure):
