@@ -31,7 +31,7 @@ final class RMCharacterViewController: UIViewController, RMCharacterListViewDele
     }
     
     // MARK: - RMCharacterListViewDelegate
-    func rmCharacterListView(_ characterListView: RMCharacterListView, didSelect character: RMCharacter) {
+    func rmCharacterListView(_ characterListView: RMCharacterListView, didSelectCharacter character: RMCharacter) {
         // Open detail controller for that character
         let viewModel = RMCharacterDetailViewViewModel(character: character)
         let detailVC = RMCharacterDetailViewController(viewModel: viewModel)
