@@ -10,7 +10,6 @@ import UIKit
 /// VC to show details about single episode
 final class RMEpisodeDetailViewController: UIViewController, RMEpisodeDetailViewViewModelDelegate {
     private let viewModel: RMEpisodeDetailViewViewModel
-    
     private let detailView = RMEpisodeDetailView()
     
     // MARK: - Init
@@ -29,6 +28,7 @@ final class RMEpisodeDetailViewController: UIViewController, RMEpisodeDetailView
         view.addSubview(detailView)
         addConstraints()
         title = "Episode"
+        
         navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .action, target: self, action: #selector(didTapShare))
         
         viewModel.delegate = self
