@@ -167,13 +167,13 @@
 			path = EpisodeDetails;
 			sourceTree = "<group>";
 		};
-		04BA7ED629AF105A000FDDD8 /* EpisodeDetails */ = {
+		04BA7ED629AF105A000FDDD8 /* EpisodeDetail */ = {
 			isa = PBXGroup;
 			children = (
 				04040FCB299DECE900F4D221 /* RMEpisodeDetailViewViewModel.swift */,
 				04BA7ED729AF1080000FDDD8 /* RMEpisodeInfoCollectionViewCellViewModel.swift */,
 			);
-			path = EpisodeDetails;
+			path = EpisodeDetail;
 			sourceTree = "<group>";
 		};
 		04BA9A9A2989A28000134F42 /* DataTypes */ = {
@@ -263,7 +263,7 @@
 		04E62727298653A600CC193C /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
-				04BA7ED629AF105A000FDDD8 /* EpisodeDetails */,
+				04BA7ED629AF105A000FDDD8 /* EpisodeDetail */,
 				04AFE37B299605C40037DB3C /* CharacterDetail */,
 				04BA9A9E298A21AE00134F42 /* RMCharacterListViewViewModel.swift */,
 				04BA9AA8298B67AC00134F42 /* RMCharacterCollectionViewCellViewModel.swift */,
